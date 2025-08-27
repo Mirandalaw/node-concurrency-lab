@@ -1,0 +1,23 @@
+{
+  "name": "concurrency-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server" : "tsx watch src/1-hello-world.ts",
+    "backpressure": "tsx watch src/2-backpressure.ts",
+    "bench": "autocannon -c 200 -d 15 http://localhost:3000",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/1-hello-world.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "autocannon": "^8.0.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
