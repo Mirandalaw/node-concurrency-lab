@@ -4,7 +4,7 @@
 
 ---
 
-## 1. 실험 1: Hello World (Baseline)
+## 실험 1 : 1-hello-world (Baseline)
 
 ### 목적
 가장 단순한 HTTP 서버(응답 본문 `"ok"` 수준)에서 **동시성**(concurrency, c)을 바꿨을 때  
