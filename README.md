@@ -13,7 +13,7 @@
 **근거가 되는 기준치**로 사용하기 위해서!
 
 ### 환경 (고정·기록)
-- **머신**: MacBook Pro (Apple M1, 16GB RAM), macOS 14.x  
+- **머신**: MacBook Air M1 (Apple M1, 16GB RAM), macOS 14.x  
 - **Node.js**: v20.x (LTS)  
 - **부하 생성기**: autocannon v7.x (로컬 동일 머신 또는 동일 L2 네트워크)  
 - **시계 동기화**: macOS 기본 NTP 사용  
