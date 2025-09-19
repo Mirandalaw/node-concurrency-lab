@@ -1,6 +1,6 @@
 # Node Concurrency Lab
 
-Node.js 이벤트 루프 / 동시성 / 백프레셔 학습 실험 레포지토리
+## Node.js 이벤트 루프 / 동시성 / 백프레셔 학습 실험 레포지토리
 
 ---
 
