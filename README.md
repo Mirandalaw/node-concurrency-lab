@@ -9,7 +9,7 @@ Node.js 서버가 **대규모 요청을 어떻게 처리하는지** 직접 실�
 ## 실험 1: Hello World (Baseline)
 
 ### 목적
-- 가장 단순한 HTTP 서버에서 **동시 접속자 수(concurrency)**에 따라 성능(RPS, 지연 시간)이 어떻게 변하는지 측정.  
+- 가장 단순한 HTTP 서버에서 **동시 접속자 수**(concurrency)에 따라 성능(RPS, 지연 시간)이 어떻게 변하는지 측정.  
 - 이후 다른 실험(Backpressure, Semaphore, Worker Threads 등)의 비교 기준선 확보.  
 
 ### 환경
